@@ -1,0 +1,29 @@
+# Python Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Crucial: Do not upload local libraries)
+.venv/
+venv/
+env/
+ENV/
+
+# Data Privacy (Keep the folder structure, ignore specific data)
+data/*.csv
+expenses.csv
+transactions.csv
+!data/.gitkeep
+
+# Streamlit logs and configurations
+.streamlit/
+
+# Visual Studio Code settings
+.vscode/
+
+# Operating System files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
